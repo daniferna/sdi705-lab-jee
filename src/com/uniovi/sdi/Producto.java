@@ -4,6 +4,8 @@ public class Producto {
 	private String nombre;
 	private String imagen;
 	private float precio;
+	
+	public Producto(){} //Constructor sin parametros para permitir Java Beans
 
 	public Producto(String nombre, String imagen, float precio) {
 		this.nombre = nombre;
